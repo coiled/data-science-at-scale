@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coiled/data-science-at-scale/master?urlpath=lab)
+
 **Note:** This repository is currently a work in progress. If you are joining for the Facebook Live code along on September 15, please make sure to clone // pull the repository on the morning of September 15.
 
 # Data Science At Scale
