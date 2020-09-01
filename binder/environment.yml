@@ -1,0 +1,30 @@
+name: dask-mini
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - bokeh
+  - dask
+  - dask-ml
+  - jupyterlab
+  - nodejs
+  - tornado
+  - numba
+  - numpy
+  - pip
+  - pandas
+  - pyarrow
+  - python-graphviz
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - nbserverproxy
+  - nomkl
+  - h5py
+  - xarray
+  - requests
+  - pytables
+  - pip:
+    - mimesis
+    - dask_labextension  
+  
