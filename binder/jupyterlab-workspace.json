@@ -1,0 +1,93 @@
+{
+  "data": {
+    "file-browser-filebrowser:cwd": {
+      "path": ""
+    },
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "split-area",
+          "orientation": "horizontal",
+          "sizes": [
+            0.7047499212868628,
+            0.29525007871313735
+          ],
+          "children": [
+            {
+              "type": "tab-area",
+              "currentIndex": 0,
+              "widgets": [
+                "notebook:01-Intro.ipynb"
+              ]
+            },
+            {
+              "type": "split-area",
+              "orientation": "vertical",
+              "sizes": [
+                0.5092675144741934,
+                0.4907324855258066
+              ],
+              "children": [
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "dask-dashboard-launcher:individual-workers"
+                  ]
+                },
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "dask-dashboard-launcher:individual-task-stream"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "mode": "multiple-document"
+      },
+      "left": {
+        "collapsed": false,
+        "current": "filebrowser",
+        "widgets": [
+          "filebrowser",
+          "running-sessions",
+          "dask-dashboard-launcher",
+          "command-palette",
+          "tab-manager"
+        ]
+      },
+      "right": {
+        "collapsed": true,
+        "widgets": []
+      }
+    },
+    "notebook:01-Intro.ipynb": {
+      "data": {
+        "path": "01-Intro.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "dask-dashboard-launcher:individual-workers": {
+      "data": {
+        "route": "individual-workers",
+        "label": "Workers"
+      }
+    },
+    "dask-dashboard-launcher:individual-task-stream": {
+      "data": {
+        "route": "individual-task-stream",
+        "label": "Task Stream"
+      }
+    },
+    "dask-dashboard-launcher": {
+      "url": "DASK_DASHBOARD_URL",
+      "cluster": ""
+    }
+  },
+  "metadata": {
+    "id": "/lab"
+  }
+}
