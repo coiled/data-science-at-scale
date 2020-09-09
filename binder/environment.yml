@@ -20,3 +20,4 @@ dependencies:
   - h5py
   - requests
   - pytables
+  - s3fs
