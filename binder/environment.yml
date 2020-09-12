@@ -7,7 +7,7 @@ dependencies:
   - dask=2.25.0
   - dask-labextension>=2.0.0
   - jupyterlab
-  - nodejs
+  - nodejs=14
   - dask-ml
   - numpy
   - pandas
