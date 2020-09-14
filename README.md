@@ -27,8 +27,9 @@ If you are going to code along and use the [Anaconda distribution](https://www.a
 
 
 ## Getting set up computationally
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coiled/data-science-at-scale/master?urlpath=lab)
 
-The first option is to click on either the [Binder](https://mybinder.readthedocs.io/en/latest/) or [Colab](https://research.google.com/colaboratory/faq.html) badge above (coming soon). These will spin up the necessary computational environment for you so you can write and execute Python code from the comfort of your browser. They are free services. Due to this, the resources  are not guaranteed, though they usually work well. If you want as close to a guarantee as possible, follow the instructions below to set up your computational environment locally (that is, on your own computer).
+The first option is to click on the [Binder](https://mybinder.readthedocs.io/en/latest/) badge above. This will spin up the necessary computational environment for you so you can write and execute Python code from the comfort of your browser. Binder is a free service. Due to this, the resources  are not guaranteed, though they usually work well. If you want as close to a guarantee as possible, follow the instructions below to set up your computational environment locally (that is, on your own computer). Note that Binder will not work for all of the notebooks, particularly when we spin up Coiled Cloud. For these, you can follow along or set up your local environment as detailed below.
 
 
 
@@ -37,7 +38,7 @@ The first option is to click on either the [Binder](https://mybinder.readthedocs
 To get set up for this live coding session, clone this repository. You can do so by executing the following in your terminal:
 
 ```
-https://github.com/coiled/data-science-at-scale
+git clone https://github.com/coiled/data-science-at-scale
 ```
 
 Alternatively, you can download the zip file of the repository at the top of the main page of the repository. If you prefer not to use git or don't have experience with it, this a good option.
@@ -51,10 +52,10 @@ If you do not already have the [Anaconda distribution](https://www.anaconda.com/
 Navigate to the relevant directory `data-science-at-scale` and install required packages in a new conda environment:
 
 ```
-conda env create -f environment.yml
+conda env create -f binder/environment.yml
 ```
 
-This will create a new environment called covid_19_eda. To activate the environment on OSX/Linux, execute
+This will create a new environment called data-science-at-scale. To activate the environment on OSX/Linux, execute
 
 ```
 source activate data-science-at-scale
@@ -65,9 +66,15 @@ On Windows, execute
 activate data-science-at-scale
 ```
 
+Then execute the following to get all the great Jupyter // Bokeh // Dask dashboarding tools.
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @bokeh/jupyter_bokeh
+jupyter labextension install dask-labextension
+```
 
-### 4. Open your Jupyter notebook
+### 4. Open your Jupyter Lab 
 
-In the terminal, execute `jupyter notebook`.
+In the terminal, execute `jupyter lab`.
 
 Then open the notebook `1-data-science-at-scale.ipynb` and we're ready to get coding. Enjoy.
