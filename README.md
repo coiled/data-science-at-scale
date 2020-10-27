@@ -1,6 +1,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coiled/data-science-at-scale/master?urlpath=lab)
 
-**Note:** This repository is currently a work in progress. If you are joining for the Facebook Live code along on September 15, please make sure to clone // pull the repository on the morning of September 15.
+**Note:** This repository is currently a work in progress. If you are joining for any given tutorial, please make sure to clone // pull the repository 2 hours before the tutorial begins.
+
+Material for any given tutorial will be in the notebooks directory: for example, material for the Data Umbrella & PyLadies NYC tutorial on October 27, is in a subdirectort of `/notebooks` called `/data-umbrella-2020-10-27`.
 
 # Data Science At Scale
 
@@ -22,8 +24,6 @@ Not a lot. It would help if you knew
 Also, if you'd like to watch and **not** code along, you'll also have a great time and these notebooks will be downloadable afterwards also.
 
 If you are going to code along and use the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3 (see below), I ask that you install it before the session.
-
-**Note:** We may be making some live submissions to [Kaggle](https://www.kaggle.com) so, if you want to do that, get yourself an account before the session.
 
 
 ## Getting set up computationally
@@ -77,4 +77,4 @@ jupyter labextension install dask-labextension
 
 In the terminal, execute `jupyter lab`.
 
-Then open the notebook `1-data-science-at-scale.ipynb` and we're ready to get coding. Enjoy.
+Then open the notebook `0-overview.ipynb` in the relevant subdirectory of `/notebooks` and we're ready to get coding. Enjoy.
