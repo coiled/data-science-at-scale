@@ -21,6 +21,9 @@ jobs:
           # Upstream bug in docker-py not declaring six - will be fixed
           # on next release https://github.com/docker/docker-py/issues/2842
           python -m pip install six
+          # Should be fixed once https://github.com/jupyterhub/repo2docker/issues/1063
+          # is merged
+          python -m pip install chardet
 
       - name: Build Docker image
         run: jupyter-repo2docker --no-run --debug .
