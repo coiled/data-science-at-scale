@@ -3,7 +3,7 @@
 **Note:** This repository is currently a work in progress. If you are joining for any given tutorial, please make sure to clone // pull the repository 2 hours before the tutorial begins.
 
 
-# Data Science At Scale
+# Data Science and Machine Learning at Scale
 
 This tutorial's purpose is to introduce Pythonistas to methods for scaling their data science and machine learning work to larger datasets and larger models, using the tools and APIs they know and love from the PyData stack (such as `numpy`, `pandas`, and `scikit-learn`).
 
