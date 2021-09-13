@@ -2,12 +2,11 @@
 
 **Note:** This repository is currently a work in progress. If you are joining for any given tutorial, please make sure to clone // pull the repository 2 hours before the tutorial begins.
 
-Material for any given tutorial will be in the notebooks directory: for example, material for the Data Umbrella & PyLadies NYC tutorial on October 27, is in a subdirectort of `/notebooks` called `/data-umbrella-2020-10-27`.
 
 # Data Science At Scale
 
-
 This tutorial's purpose is to introduce Pythonistas to methods for scaling their data science and machine learning work to larger datasets and larger models, using the tools and APIs they know and love from the PyData stack (such as `numpy`, `pandas`, and `scikit-learn`).
+
 
 ## Prerequisites
 
@@ -30,7 +29,6 @@ If you are going to code along and use the [Anaconda distribution](https://www.a
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coiled/data-science-at-scale/master?urlpath=lab)
 
 The first option is to click on the [Binder](https://mybinder.readthedocs.io/en/latest/) badge above. This will spin up the necessary computational environment for you so you can write and execute Python code from the comfort of your browser. Binder is a free service. Due to this, the resources  are not guaranteed, though they usually work well. If you want as close to a guarantee as possible, follow the instructions below to set up your computational environment locally (that is, on your own computer). Note that Binder will not work for all of the notebooks, particularly when we spin up Coiled Cloud. For these, you can follow along or set up your local environment as detailed below.
-
 
 
 ### 1. Clone the repository
@@ -66,15 +64,9 @@ On Windows, execute
 activate data-science-at-scale
 ```
 
-Then execute the following to get all the great Jupyter // Bokeh // Dask dashboarding tools.
-```
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install @bokeh/jupyter_bokeh
-jupyter labextension install dask-labextension
-```
 
-### 4. Open your Jupyter Lab 
+### 4. Open your Jupyter Lab
 
 In the terminal, execute `jupyter lab`.
 
-Then open the notebook `0-overview.ipynb` in the relevant subdirectory of `/notebooks` and we're ready to get coding. Enjoy.
+Then open the notebook `0-overview.ipynb` and we're ready to get coding. Enjoy.
