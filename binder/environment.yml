@@ -1,4 +1,4 @@
-name: data-science-at-scale
+# name: data-science-at-scale
 channels:
   - conda-forge
 dependencies:
@@ -22,3 +22,4 @@ dependencies:
   - requests
   - pytables
   - s3fs
+  - coiled
