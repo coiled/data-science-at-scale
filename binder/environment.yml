@@ -3,9 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - bokeh>2.0.0
-  - dask=2.25.0
-  - dask-labextension>=2.0.0
+  - bokeh
+  - dask
+  - distributed
+  - dask-labextension
   - jupyterlab
   - nodejs=14
   - dask-ml
